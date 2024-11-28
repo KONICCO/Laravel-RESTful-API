@@ -36,4 +36,6 @@ class UserRegisterRequest extends FormRequest
             "errors" => $validator->getMessageBag()
         ], 400));
     }
+
+   
 }
